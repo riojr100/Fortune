@@ -75,7 +75,7 @@ class CartController extends Controller
     {
         $order = Order::where('order_code', $ordercode)->first();
         // $pdf = Pdf::loadView('receipt', ['order' => $order]);
-        // return $pdf->download('terasedap_receipt.pdf');
+        // return $pdf->download('fortunate_receipt.pdf');
         return view('receipt', ['order' => $order]);
     }
 

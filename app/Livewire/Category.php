@@ -25,7 +25,7 @@ class Category extends Component
 
 
     #[Layout('/components/layouts/app')]
-    #[Title('Terasedap Category Management')]
+    #[Title('Fortunate Category Management')]
     public function render()
     {
         return view('livewire.category');
