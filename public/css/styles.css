@@ -34,7 +34,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #faf2dd;
     color: #000000;
 }
 
@@ -101,7 +101,7 @@ ul.horizontal-list li:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #efe5d5;
+    background-color: #cabeab;
     text-align: left;
     padding: 8px;
     width: 86%;
@@ -601,7 +601,7 @@ footer {
     width: 100%;
     position: inline;
     bottom: 0;
-    background-color: #efe5d5;
+    background-color: #cabeab;
     font-size: 13px;
     line-height: 20px;
     color: black;
